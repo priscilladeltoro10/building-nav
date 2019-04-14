@@ -1,4 +1,4 @@
-.box {
+/* .box {
     height: 100px;
     width: 200px;
 
@@ -37,4 +37,39 @@ clear: right;
 }
 .clear-both {
 clear: both;
+} */
+
+
+.center {
+    text-align: center;
+}
+body {
+    margin: 0;
+}
+.main-nav {
+    height: 75px;
+    background-color: #333;
+}
+.main-nav:hover {
+    height: 85px;
+}
+.logo {
+    height: 50px;
+    padding: 10px;
+}
+.nav-list {
+    float: right;
+    list-style-type: none;
+}
+li {
+    color: #fff;
+    float: left;
+    padding: 14px 16px;
+}
+li:hover {
+    font-size: 30px;
+    padding: 5px 16px;
+}
+.logo:hover {
+    height: 66px;
 }
