@@ -73,12 +73,13 @@ li:hover {
 .logo:hover {
     height: 66px;
 }
-
 /* End Nav styles */
 
 /* Content styles */
-.content {
+.content, map {
     height: 85vh;
+    padding-left: 200px;
+    padding-right: 200px
 }
 
 /* Footer styles */
