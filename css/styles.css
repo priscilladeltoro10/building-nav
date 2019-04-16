@@ -73,3 +73,24 @@ li:hover {
 .logo:hover {
     height: 66px;
 }
+
+/* End Nav styles */
+
+/* Content styles */
+.content {
+    height: 85vh;
+}
+
+/* Footer styles */
+.footer {
+    background-color: brown;
+}
+.social-media {
+    height: 50px;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
