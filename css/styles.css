@@ -94,3 +94,7 @@ a {
     color: white;
     text-decoration: none;
 }
+.brand-logo {
+    height: 40px;
+    width: 40px;
+}
