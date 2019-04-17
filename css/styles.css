@@ -117,7 +117,18 @@ li:hover {
 .button-small {
     width: 150px;
 }
-
+span {
+    background-color: yellowgreen;
+}
+.family > span {
+    background-color: orange;
+}
+.second-span ~ .first-span {
+    color: red;
+}
+ul.social-media > li {
+    padding: 20px 24px;
+}
 
 /* End Content styles */
 
@@ -138,3 +149,20 @@ a {
     height: 40px;
     width: 40px;
 }
+@media (max-width: 768px){
+    .button{
+        font-size: 18px;
+    }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 1024px){
+    .button{
+        font-size: 22px;
+    }
+ }
+ 
+ @media (min-width: 1024px) and (max-width: 1024px){
+    .button{
+        font-size: 20px;
+    }
+ }
