@@ -1,6 +1,7 @@
 /* .box {
     height: 100px;
     width: 200px;
+
     border: 1px solid black;
 }
 .red {
@@ -21,6 +22,7 @@ background-color: rgba(238, 234, 13, 0.8);
 .orange {
 background-color: rgba(223, 157, 35, 0.8);
 }
+
 .left {
 float: left;
 }
@@ -78,7 +80,7 @@ li:hover {
 
 /* Content styles */
 .content {
-    height: 120vh;
+    height: 150vh;
     padding: 0 50px;
 }
 .map-frame {
@@ -135,21 +137,4 @@ a {
 .brand-logo {
     height: 40px;
     width: 40px;
-}
-/* End footer styles */
-
-@media (max-width: 768px) {
-    .button {
-        font-size: 18px;
-    }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-    .button {
-        font-size: 22px;
-    }
-}
-@media (min-width: 1024px) and (max-width: 1024px) {
-    .button {
-        font-size: 20px;
-    }
 }
