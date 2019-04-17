@@ -78,6 +78,13 @@ li:hover {
 /* Content styles */
 .content {
     height: 85vh;
+    justify-content: center;
+}
+.audio {
+    margin: 0 auto;
+}
+.video {
+    margin: 0 auto;
 }
 
 /* Footer styles */
