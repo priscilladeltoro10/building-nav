@@ -1,4 +1,3 @@
-
 /* .box {
     height: 100px;
     width: 200px;
@@ -73,121 +72,54 @@ li:hover {
 }
 .logo:hover {
     height: 66px;
+}
+.no-list-style {
+    list-style-type: none;
 }
 /* End Nav styles */
 
 /* Content styles */
 .content {
-    height: 85vh;
-    justify-content: center;
+    height: 150vh;
+    padding: 0 50px;
+}
+.map-frame {
+    width: 100%;
 }
 .audio {
-    margin: 0 auto;
+    width: 300px;
 }
 .video {
+    width: 560px;
+}
+.margin-0-auto{
     margin: 0 auto;
 }
-
-/* Footer styles */
-.footer {
-    background-color: brown;
-}
-.social-media {
-    height: 50px;
-    margin-bottom: 0;
-    list-style-type: none;
-}
-a {
+.button {
+    border-radius: 10px;
     color: white;
-    text-decoration: none;
-}
-.brand-logo {
-    height: 40px;
-    width: 40px;
-
-/* .box {
-    height: 100px;
-    width: 200px;
-
-    border: 1px solid black;
-}
-.red {
-background-color: rgba(233, 58, 19, 0.8);
-}
-.green {
-background-color: rgba(40,75,40,0.80);
-}
-.blue {
-background-color: rgba(40,75,230,0.80);
-}
-.purple {
-background-color: rgba(145, 37, 196, 0.8);
-}
-.yellow {
-background-color: rgba(238, 234, 13, 0.8);
-}
-.orange {
-background-color: rgba(223, 157, 35, 0.8);
-}
-
-.left {
-float: left;
-}
-.right {
-    float: right;
-}
-.clear-left {
-clear: left;
-}
-.clear-right {
-clear: right;
-}
-.clear-both {
-clear: both;
-} */
-
-
-.center {
-    text-align: center;
-}
-body {
-    margin: 0;
-}
-.main-nav {
-    height: 75px;
-    background-color: #333;
-}
-.main-nav:hover {
-    height: 85px;
-}
-.logo {
-    height: 50px;
+    font-size: 24px;
     padding: 10px;
 }
-.nav-list {
-    float: right;
-    list-style-type: none;
+.button-success {
+    border: 1px solid #ccc;
+    background: green;
 }
-li {
-    color: #fff;
-    float: left;
-    padding: 14px 16px;
+.button-default {
+    background: #ccc;
+    color: black;
 }
-li:hover {
-    font-size: 30px;
-    padding: 5px 16px;
+.button-danger {
+    width: 250px;
+    background: red;
+    border: none;
 }
-.logo:hover {
-    height: 66px;
+.button-small {
+    width: 150px;
 }
-/* End Nav styles */
 
-/* Content styles */
-.content, map {
-    height: 85vh;
-    padding-left: 200px;
-    padding-right: 200px
-}
+
+/* End Content styles */
 
 /* Footer styles */
 .footer {
