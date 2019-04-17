@@ -1,7 +1,6 @@
 /* .box {
     height: 100px;
     width: 200px;
-
     border: 1px solid black;
 }
 .red {
@@ -22,7 +21,6 @@ background-color: rgba(238, 234, 13, 0.8);
 .orange {
 background-color: rgba(223, 157, 35, 0.8);
 }
-
 .left {
 float: left;
 }
@@ -73,13 +71,53 @@ li:hover {
 .logo:hover {
     height: 66px;
 }
-
+.no-list-style {
+    list-style-type: none;
+}
 /* End Nav styles */
 
 /* Content styles */
 .content {
-    height: 85vh;
+    height: 120vh;
+    padding: 0 50px;
 }
+.map-frame {
+    width: 100%;
+}
+.audio {
+    width: 300px;
+}
+.video {
+    width: 560px;
+}
+.margin-0-auto{
+    margin: 0 auto;
+}
+.button {
+    border-radius: 10px;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+}
+.button-success {
+    border: 1px solid #ccc;
+    background: green;
+}
+.button-default {
+    background: #ccc;
+    color: black;
+}
+.button-danger {
+    width: 250px;
+    background: red;
+    border: none;
+}
+.button-small {
+    width: 150px;
+}
+
+
+/* End Content styles */
 
 /* Footer styles */
 .footer {
@@ -97,4 +135,21 @@ a {
 .brand-logo {
     height: 40px;
     width: 40px;
+}
+/* End footer styles */
+
+@media (max-width: 768px) {
+    .button {
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .button {
+        font-size: 22px;
+    }
+}
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .button {
+        font-size: 20px;
+    }
 }
